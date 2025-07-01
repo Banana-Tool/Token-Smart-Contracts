@@ -1,35 +1,42 @@
 # BananaTool 智能合约源码
 BananaTool作为全网最强的一键发币平台，在EVM链拥有最多的合约机制。每一个智能合约的玩法、写法都不尽相同，现在，我们将这些合约源码统一上传至Github。尽管BananaTool的代币合约本身就是在浏览器开源的，但考虑到很多开发者获取困难的缘故，我们现在将代码放在这里，以方便各位参考学习。
- 需要注意的是，这个世界上没有百分百完美的代码。尤其是Solidity这种并不是非常大众的语言，可能还会有很多未知的问题存在。管BananaTool的技术团队也一直在不断的对代码进行优化，后续所有新的合约以及更新，都会同步更新在这里
+
+
+需要注意的是，这个世界上没有百分百完美的代码。尤其是Solidity这种并不是非常大众的语言，可能还会有很多未知的问题存在。管BananaTool的技术团队也一直在不断的对代码进行优化，后续所有新的合约以及更新，都会同步更新在这里
 
 ## BSC合约介绍
-[stardand](https://github.com/BananaToolcode/Token-Smart-Contracts/blob/main/BSC/stardand)：标准的BEP20合约，干净、无任何功能，无权限
+[标准代币](./BSC//1_普通代币.sol)：干净合约、方便上手、无税无功能、Ave检测全绿
 
-[holdreflection](https://github.com/BananaToolcode/Token-Smart-Contracts/blob/main/BSC/holdreflection)：具有持币分红本币、交易销毁等功能，无权限、合约干净
+[营销回流代币](./BSC//2_营销回流代币.sol)：获取营销手续费，营销代币
 
-[314protocol](https://github.com/BananaToolcode/Token-Smart-Contracts/blob/main/BSC/314protocol)：314协议，转账即交易，具有交易冷却防夹功能
+[持币分红](./BSC/3_持币分红代币.sol)：用户持有代币获得分红，增加用户粘性
 
-[lpreflection](https://github.com/BananaToolcode/Token-Smart-Contracts/blob/main/BSC/lpreflection)：LP分红模式，加池可以分任何代币，同时具备销毁回流、黑/白名单、交易空投等
+[黑洞分红](./BSC/8_黑洞分红.sol)：销毁代币，获取分红，减少代币总量
 
-[holdwithinviter](https://github.com/BananaToolcode/Token-Smart-Contracts/blob/main/BSC/holdwithinviter)：持币复利+推荐奖励，以增发的方式实现持币生息的功能，且具有上下级
+[LP分红代币](./BSC/4_LP分红代币.sol)：加池参与分红、池子越来越厚，币价螺旋上涨
 
-[Mint+lpburn](https://github.com/BananaToolcode/Token-Smart-Contracts/blob/main/BSC/lpburn)：Mint+底池燃烧，以转账的方式实现Mint预售、底池内代币定时燃烧销毁，来提升币价
+[分红本币](./BSC/5_分红本币.sol)：简单干净合约,无黑白名单,无权限,加池自动开盘,持币即可获益
 
-[Mint+holdothers](https://github.com/BananaToolcode/Token-Smart-Contracts/blob/main/BSC/mint%2Bholdothers):Mint+持币分红，以转账的方式实现Mint预售，同时实现持币分其他币（非本币）
+[LP分红+推荐奖励](./BSC/6_推荐返利+LP分红.sol)：下级交易、上级奖励、持续裂变、壮大规模
 
-[lpmine](https://github.com/BananaToolcode/Token-Smart-Contracts/blob/main/BSC/lpmine)：LP挖矿模式，全网独创。持有Lp开启挖矿，合约自动运行，有交易即可获得挖矿奖励
+[NFT分红](./BSC//7_NFT分红.sol)：持有NFT，获得分红，提高NFT价值
+
+[314协议](./BSC/10_314代币.sol)：席卷全球创新314玩法、无需swap即可兑换、交易冷却防夹子
+
+[持币复利+推荐奖励](./BSC/9_复利代币.sol)：持币自动生息、代币资产累积、打造去中心化银行
+
 
 ## ETH合约介绍
-[stardand](https://github.com/BananaToolcode/Token-Smart-Contracts/blob/main/ETH/stardand)：标准的ERC20合约，干净、无任何功能，无权限
+[标准代币](./ETH/1_普通代币.sol)：标准的ERC20合约，干净、无任何功能，无权限
 
 ## BASE合约介绍
-[stardand](https://github.com/BananaToolcode/Token-Smart-Contracts/blob/main/Base/stardand)：标准的ERC20合约，干净、无任何功能，无权限
+[标准代币](./Base/1_普通代币.sol)：标准的ERC20合约，干净、无任何功能，无权限
 
 ## Arbitrum合约介绍
-[stardand](https://github.com/BananaToolcode/Token-Smart-Contracts/blob/main/Arbitrum/stardand)：标准的ERC20合约，干净、无任何功能，无权限
+[标准代币](./Arbitrum/1_普通代币.sol)：标准的ERC20合约，干净、无任何功能，无权限
 
 ## Polygon合约介绍
-[stardand](https://github.com/BananaToolcode/Token-Smart-Contracts/blob/main/Polygon/stardand)：标准的ERC20合约，干净、无任何功能，无权限
+[标准代币](./Polygon/1_普通代币.sol)：标准的ERC20合约，干净、无任何功能，无权限
 
 ## TRON合约介绍
 [stardand](./TRON/stardand.sol)：波场链标准的TRC20合约，干净、无任何功能，无权限
